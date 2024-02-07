@@ -1,0 +1,16 @@
+### Get Tidak Bagus
+POST http://localhost:8000/predict
+Content-Type: application/json
+
+{
+    "data": [94, 0, 0, 1, 1, 0, 1, 1]
+}
+
+
+### Get Bagus
+POST http://localhost:8000/predict
+Content-Type: application/json
+
+{
+    "data": [80, 1, 1, 0, 1, 0, 0, 1]
+}
