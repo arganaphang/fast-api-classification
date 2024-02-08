@@ -3,7 +3,14 @@ POST http://localhost:8000/predict
 Content-Type: application/json
 
 {
-    "data": [94, 0, 0, 1, 1, 0, 1, 1]
+    "nilai": 95,
+    "homepage": 0,
+    "modul_perkuliahan": 1,
+    "forum": 0,
+    "tugas": 1,
+    "kuis": 0,
+    "uts": 1,
+    "uas": 0
 }
 
 
@@ -12,5 +19,12 @@ POST http://localhost:8000/predict
 Content-Type: application/json
 
 {
-    "data": [80, 1, 1, 0, 1, 0, 0, 1]
+    "nilai": 80,
+    "homepage": 1,
+    "modul_perkuliahan": 0,
+    "forum": 0,
+    "tugas": 0,
+    "kuis": 0,
+    "uts": 0,
+    "uas": 0
 }
